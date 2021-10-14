@@ -11,6 +11,7 @@ import ProjectItem from './ProjectItem';
 //         └── ProjectItem
 function ProjectList({ projects }) {
   const projectList = projects.map((project) => {
+    console.log(projects);
     return (
       <ProjectItem
         name={project.name}
